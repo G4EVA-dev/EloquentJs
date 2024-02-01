@@ -137,7 +137,7 @@ function sum (arr) {
   }
   return count;
 }
-console.log(sum([1,2,3,4,5,6,7,8,9,10]));
+console.log(sum(range(1, 10)));
 
 // function sayHi() {
 //   console.log(name);
