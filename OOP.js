@@ -126,3 +126,6 @@
 // console.log(String(blackRabbit));
 
 //!SYMBOLS
+
+import six from "./modules.js";
+console.log(`I imported ${six}`);
