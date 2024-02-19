@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Handler</title>
+
+    <style>
+      .draw {
+        width: 70%;
+        height: 500px;
+        background: beige;
+        margin: 20px auto;
+      }
+      .dot {
+        height: 8px;
+        width: 8px;
+        border-radius: 4px; /* rounds corners */
+        background: blue;
+        position: absolute;
+      }
+
+      #progress {
+        border-bottom: 5px solid blue;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: ease;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Click on this Document</p>
+    <p>Click Me!!!</p>
+    <button>Click me any way you want</button>
+    <a href="https://developer.mozilla.org/">MDN</a>
+    <div class="draw"></div>
+
+    <p>Drag the bar to change its width:</p>
+    <div
+      class="bar"
+      style="background: orange; width: 60px; height: 20px"
+    ></div>
+
+    <div id="progress"></div>
+    <script src="eventHandler.js"></script>
+  </body>
+</html>
